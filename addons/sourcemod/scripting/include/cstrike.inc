@@ -69,8 +69,16 @@ enum CSRoundEndReason
 	CSRoundEnd_VIPNotEscaped,              /**< VIP has not escaped! - Doesn't exist on CS:GO */
 	CSRoundEnd_GameStart,                  /**< Game Commencing! */
 	
+
+	CSRoundEnd_GameCommencing = CSRoundEnd_GameStart,
+	CSRoundEnd_GhostWin,
+	CSRoundEnd_SodierWin,
+	CSRoundEnd_RoundEnd,
+	CSRoundEnd_RoundClear,
+	CSRoundEnd_RoundLose,
+
 	// The below only exist on CS:GO
-	CSRoundEnd_TerroristsSurrender,        /**< Terrorists Surrender */
+	CSRoundEnd_TerroristsSurrender = CSRoundEnd_GhostWin,        /**< Terrorists Surrender */
 	CSRoundEnd_CTSurrender,                /**< CTs Surrender */
 	CSRoundEnd_TerroristsPlanted,          /**< Terrorists Planted the bomb */
 	CSRoundEnd_CTsReachedHostage           /**< CTs Reached the hostage */
