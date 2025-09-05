@@ -1,0 +1,16 @@
+"Games"
+{
+	"#default"
+	{
+		"Signatures"
+		{
+			"UpdateTeamScore"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x53\x56\x8B\x75\x08\x8B\xD9\x57\x56"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+		}
+	}
+}
