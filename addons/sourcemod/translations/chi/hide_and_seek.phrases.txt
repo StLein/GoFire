@@ -1,0 +1,257 @@
+"Phrases"
+{
+	"Title Select Model"
+	{
+		"chi"			"选择模型"
+	}
+
+	"Model Changed"
+	{
+		"chi"			"你现在是"
+	}
+
+	"Modelmenu Disabled"
+	{
+		"chi"			"本回合你不能再更换模型了。"
+	}
+
+	"Did not choose model"
+	{
+		"chi"			"你没有选择模型，正在自动分配..."
+	}
+
+	"Print to console"
+	{
+		"chi"			"请将以下内容打印到控制台："
+	}
+
+	"Only terrorists can select models"
+	{
+		"chi"			"只有恐怖分子才能选择模型。"
+	}
+
+	"Only terrorists can use"
+	{
+		"chi"			"只有恐怖分子才能使用这个指令。"
+	}
+
+	"CT team is full"
+	{
+		"chi"			"CT 队已满！"
+	}
+
+	"Type again for ego"
+	{
+		"chi"			"再次输入 /tp 切换回第一人称视角。"
+	}
+
+	"Wait for t to hide"
+	{
+		"chi"			"给恐怖分子 {1} 秒钟去躲藏。"
+	}
+
+	"seconds to hide"
+	{
+		"chi"			"你有 {1} 秒时间躲藏，找一个能融入环境的位置！"
+	}
+
+	"Go search"
+	{
+		"chi"			"觉得恐怖分子没藏好？去找他们！"
+	}
+
+	"whistled"
+	{
+		"chi"			"吹响了口哨！"
+	}
+
+	"autowhistle"
+	{
+		"chi"			"自动口哨"
+	}
+
+	"whistles left"
+	{
+		"chi"			"你还可以吹 {1} 次口哨。"
+	}
+
+	"Whistling not allowed yet"
+	{
+		"chi"			"现在还不能吹口哨。"
+	}
+
+	"whistle allowed"
+	{
+		"chi"			"现在可以吹口哨了。"
+	}
+
+	"T type /whistle"
+	{
+		"chi"			"恐怖分子可以吹口哨来提供提示，在聊天输入 \"/whistle\"！"
+	}
+
+	"whistle limit exceeded"
+	{
+		"chi"			"你本回合已经用完了 {1} 次口哨机会。"
+	}
+
+	"T type /tp"
+	{
+		"chi"			"在聊天输入 \"/tp\" 来切换第三人称视角！"
+	}
+
+	"Type !hide"
+	{
+		"chi"			"在聊天输入 \"!hide\" 打开选项菜单。"
+	}
+
+	"Spectator Cheater"
+	{
+		"chi"			"因非法 cvar 已被移至观察者。"
+	}
+
+	"Kick bad cvars"
+	{
+		"chi"			"你必须修改上述 cvar（控制台）才能在此服务器游玩。"
+	}
+
+	"protected cvar"
+	{
+		"chi"			"该 cvar 受保护，请勿修改！"
+	}
+
+	"got frags"
+	{
+		"chi"			"所有存活的躲藏者获得 {1} 分，干得漂亮！"
+	}
+
+	"Hider Freezed"
+	{
+		"chi"			"你已被冻结，无法移动。"
+	}
+
+	"Hider Unfreezed"
+	{
+		"chi"			"你可以再次移动了。"
+	}
+
+	"HnS Help"
+	{
+		"chi"			"躲猫猫模式：帮助"
+	}
+
+	"Running HnS"
+	{
+		"chi"			"本服务器正在运行躲猫猫模式。"
+	}
+
+	"Instructions 1"
+	{
+		"chi"			"恐怖分子选择模型并躲藏，CT 搜索并击杀他们。"
+	}
+
+	"Available Commands"
+	{
+		"chi"			"可用的聊天指令"
+	}
+
+	"Howto CT"
+	{
+		"chi"			"CT（搜寻者）怎么玩？"
+	}
+
+	"Instructions CT 1"
+	{
+		"chi"			"搜寻者必须找到并击杀躲藏者，他们可能是从油桶到花盆的任何东西。"
+	}
+
+	"Instructions CT 2"
+	{
+		"chi"			"开枪要小心！每开一枪你可能会损失 {1} 点生命值。"
+	}
+
+	"Instructions CT 3"
+	{
+		"chi"			"攻击躲藏者获得 {1} 点生命，击杀躲藏者获得 {2} 点生命。小心背后！"
+	}
+
+	"Howto T"
+	{
+		"chi"			"T（躲藏者）怎么玩？"
+	}
+
+	"Instructions T 1"
+	{
+		"chi"			"躲藏者选择地图中常见的模型，找一个最能融入的地方藏起来。"
+	}
+
+	"Instructions T 2"
+	{
+		"chi"			"保持移动，增加搜寻者的机会和游戏的乐趣！"
+	}
+
+	"cmd hide"
+	{
+		"chi"			"显示模型选择菜单。"
+	}
+
+	"cmd tp"
+	{
+		"chi"			"切换第三人称视角。"
+	}
+
+	"cmd whistle"
+	{
+		"chi"			"从躲藏者位置发出声音，给搜寻者提示。"
+	}
+
+	"cmd whoami"
+	{
+		"chi"			"在聊天显示你当前的模型名称。"
+	}
+
+	"cmd freeze"
+	{
+		"chi"			"让躲藏者原地冻结。"
+	}
+
+	"cmd hidehelp"
+	{
+		"chi"			"显示帮助菜单。"
+	}
+
+	"going to switch"
+	{
+		"chi"			"{1} 将在回合结束后切换到躲藏者队伍。"
+	}
+
+	"stop switch"
+	{
+		"chi"			"{1} 将不再在回合结束后切换到躲藏者队伍。"
+	}
+
+	"switched"
+	{
+		"chi"			"{1} 已被切换到躲藏者队伍。"
+	}
+
+	"random"
+	{
+		"chi"			"随机模型"
+	}
+
+	"is heightfixed"
+	{
+		"chi"			"该模型存在 bug，使用固定高度，你会频繁弹跳。"
+	}
+
+	"tax charged"
+	{
+		"chi"			"使用该模型需支付 ${1}，已扣除。"
+	}
+
+	"not enough money"
+	{
+		"chi"			"你的资金不足，无法使用该模型。"
+	}
+}
