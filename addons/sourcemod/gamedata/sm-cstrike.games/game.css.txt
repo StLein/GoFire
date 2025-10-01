@@ -16,13 +16,13 @@
 			}
 			"ClanTagOffset"
 			{
-				"windows"	"5724"
-				"windows64"	"5724"
+				"windows"	"5732"
+				"windows64"	"5732"
 			}
 			"ClanTagOffset2"
 			{
-				"windows"	"5724"
-				"windows64"	"5724"
+				"windows"	"5732"
+				"windows64"	"5732"
 			}
 			"CTTeamScoreOffset"
 			{
@@ -89,7 +89,7 @@
 			"GetTranslatedWeaponAlias"
 			{
 				"library" "server"
-				"windows" "\x55\x8B\xEC\x56\x57\x8B\x7D\x08\x33\xF6\x8D\x9B\x00\x00\x00\x00\x57\xFF\x34\xF5\x00"
+				"windows" "\x55\x8B\xEC\x56\x57\x8B\x7D\x08\x33\xF6\x8D\x9B\x00\x00\x00\x00\x57\xFF\x34\xF5\x20"
 				"linux" "@_Z24GetTranslatedWeaponAliasPKc"
 				"linux64" "@_Z24GetTranslatedWeaponAliasPKc"
 			}
@@ -110,7 +110,7 @@
 			"WeaponIDToAlias"
 			{
 				"library" "server"
-				"windows" "\x55\x8B\xEC\x8B\x4D\x08\x33\xC0\xEB\x06\x8D\x9B\x00\x00\x00\x00\x39\x0C\xC5\x90"
+				"windows" "\x55\x8B\xEC\x8B\x4D\x08\x33\xC0\xEB\x06\x8D\x9B\x00\x00\x00\x00\x39\x0C\xC5\x40"
 				"linux" "@_Z15WeaponIDToAliasi"
 				"linux64" "@_Z15WeaponIDToAliasi"
 			}
@@ -137,8 +137,8 @@
 		{
 			"m_iMVPs"
 			{
-				"windows"	"6512"
-				"windows64"	"6512"
+				"windows"	"6520"
+				"windows64"	"6520"
 			}
 			"MVPs"
 			{
