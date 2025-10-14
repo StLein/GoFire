@@ -1,0 +1,14 @@
+"Games"
+{
+	"cstrike"
+	{
+		"Offsets"
+		{
+			"m_LastHitGroup"
+			{
+				"windows"	"4524"
+				"windows64"	"4524"
+			}
+		}
+	}
+}

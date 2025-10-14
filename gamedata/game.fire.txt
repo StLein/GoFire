@@ -4,6 +4,13 @@
 	{
 		"Signatures"
 		{
+			"ConvertTeam"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x83\xEC\x10\x89\x4D\xFC\x8B\x45\x08\x50\xE8\x2A\x2A\x2A\x2A"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
 			"UpdateTeamScore"
 			{
 				"library" "server"
