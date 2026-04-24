@@ -6,8 +6,8 @@
 		{
 			"m_LastHitGroup"
 			{
-				"windows"	"4524"
-				"windows64"	"4524"
+				"windows"	"4544"
+				"windows64"	"4544"
 			}
 		}
 	}
