@@ -1,0 +1,185 @@
+"Games"
+{
+	"#default"
+	{
+		"Offsets"
+		{
+			"iFireMenu"
+			{
+				"windows"	"4400"
+				"windows64"	"4400"
+			}
+			"m_iRoles"
+			{
+				"windows"	"5972"
+				"windows64"	"5972"
+			}
+			"m_iHasProCloth"
+			{
+				"windows"	"6200"
+				"windows64"	"6200"
+			}
+			"m_iMeleeAngleModifier"
+			{
+				"windows"	"6204"
+				"windows64"	"6204"
+			}
+			"respawn_origin"
+			{
+				"windows"	"5900"
+				"windows64"	"5900"
+			}
+			"respawn_angles"
+			{
+				"windows"	"5912"
+				"windows64"	"5912"
+			}
+			"GetMaxClip1"
+			{
+				"windows"	"314"
+				"windows64"	"314"
+				"linux"		"315"
+				"linux64"	"315"
+			}
+		}
+		"Signatures"
+		{
+			"ConvertTeam"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x83\xEC\x10\x89\x4D\xFC\x8B\x45\x08\x50\xE8\x2A\x2A\x2A\x2A"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+			"SetProgressBarTime"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x83\xEC\x0C\x89\x4D\xF8\x8B\x45\xF8\x05"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+			"SetLevel"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x83\xEC\x24\x89\x4D\xFC\x8B\x45\xFC\x8B\x88\xC0"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+			"UpdateTeamScore"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x53\x56\x8B\x75\x08\x8B\xD9\x57\x56"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+			"OnPlayerSelect"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x81\xEC\xAC\x00\x00\x00\xA1\x2A\x2A\x2A\x2A\x33\xC5\x89\x45\xFC\x56"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+			"ApplyZombieClass"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x51\x56\x8B\x75\x08\x89\x4D\xFC\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x8B"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+			"zp_core_Terminator"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x83\xEC\x20\x56\x8B\x75\x08\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x57\x6A\x02\x8B\xCE\xC7\x86\x54\x17\x00\x00\x01"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+			"BotSetBreakthroughGoal"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x56\x8B\xF1\xE8\x2A\x2A\x2A\x2A\xF3\x0F\x10\x45\x08\xF3\x0F\x10\x4D\x14\xF3\x0F\x11\x86\xB0"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+			"BotClearBreakthroughGoal"
+			{
+				"library" "server"
+				"windows" "\xC6\x81\xAC\x1A\x00\x00\x00\xF3\x0F\x10\x05\xDC"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+			"BotIsAtBreakthroughGoal"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x56\x8B\xF1\x80\xBE\x2A\x2A\x2A\x2A\x00\x75\x07"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+			"GetGKeySkillCooldownTime"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x83\xEC\x08\x89\x4D\xF8\x8B\x45\x08\x89"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+			"GetGKeySkillHealthCost"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x51\x89\x4D\xFC\x81\x7D\x08\x01\x00"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+			"GetGKeySkillHealthGateCost"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x51\x89\x4D\xFC\x81\x7D\x08\x02\x00"
+				"linux" "@_NOT_SUPPORTED"
+				"linux64" "@_NOT_SUPPORTED"
+			}
+		}
+		"Functions"
+		{
+			"GetGKeySkillCooldownTime"
+			{
+				"signature"	"GetGKeySkillCooldownTime"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"	"entity"
+				"arguments"
+				{
+					"baseCooldown"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"GetGKeySkillHealthCost"
+			{
+				"signature"	"GetGKeySkillHealthCost"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"	"entity"
+				"arguments"
+				{
+					"baseCost"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"GetGKeySkillHealthGateCost"
+			{
+				"signature"	"GetGKeySkillHealthGateCost"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"	"entity"
+				"arguments"
+				{
+					"baseCost"
+					{
+						"type"	"int"
+					}
+				}
+			}
+		}
+	}
+}
