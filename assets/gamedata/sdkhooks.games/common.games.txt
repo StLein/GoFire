@@ -1,0 +1,16 @@
+"Games"
+{
+	"#default"
+	{
+		"Offsets"
+		{
+			"EntityListeners"
+			{
+				"windows"	"65572"
+				"windows64"	"65572"
+				"linux"		"65572"
+				"linux64"	"65572"
+			}
+		}
+	}
+}

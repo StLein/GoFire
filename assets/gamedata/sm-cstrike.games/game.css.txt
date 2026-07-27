@@ -1,0 +1,152 @@
+"Games"
+{
+	"cstrike"
+	{
+		"Offsets"
+		{
+			"WeaponName"
+			{
+				"windows"	"6"
+				"windows64"	"6"
+			}
+			"WeaponPrice"
+			{
+				"windows"	"4344"
+				"windows64"	"4344"
+			}
+			"ClanTagOffset"
+			{
+				"windows"	"5812"
+				"windows64"	"5812"
+			}
+			"ClanTagOffset2"
+			{
+				"windows"	"5812"
+				"windows64"	"5812"
+			}
+			"CTTeamScoreOffset"
+			{
+				"windows"	"20752"
+				"windows64"	"20752"
+			}
+			"TTeamScoreOffset"
+			{
+				"windows"	"20754"
+				"windows64"	"20754"
+			}
+		}
+		"Signatures"
+		{
+			"RoundRespawn"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x83\xEC\x4C\x89\x4D\xFC\x8B\x45\xFC"
+				"linux" "@_ZN9CCSPlayer12RoundRespawnEv"
+				"linux64" "@_ZN9CCSPlayer12RoundRespawnEv"
+			}
+			"SwitchTeam"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x83\xEC\x18\x89\x4D\xFC\x8B\x45\x08"
+				"linux" "@_ZN9CCSPlayer10SwitchTeamEi"
+				"linux64" "@_ZN9CCSPlayer10SwitchTeamEi"
+			}
+			"HandleCommand_Buy_Internal"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x83\xEC\x4C\x89\x4D\xF8\x6A\x00\x8B"
+				"linux" "@_ZN9CCSPlayer26HandleCommand_Buy_InternalEPKc"
+				"linux64" "@_ZN9CCSPlayer26HandleCommand_Buy_InternalEPKc"
+			}
+			"GetWeaponPrice"
+			{
+				"library" "server"
+				"windows" "\x8B\x81\xF8\x10\x00\x00\xC3\xCC\xCC\xCC\xCC\xCC"
+				"linux" "@_ZNK13CCSWeaponInfo14GetWeaponPriceEv"
+				"linux64" "@_ZNK13CCSWeaponInfo14GetWeaponPriceEv"
+			}
+			"CSWeaponDrop"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x81\xEC\x88\x01\x00\x00\xA1\x2A\x2A\x2A\x2A\x33\xC5\x89\x45\xFC\x89"
+				"linux" "@_ZN9CCSPlayer12CSWeaponDropEP17CBaseCombatWeaponbb"
+				"linux64" "@_ZN9CCSPlayer12CSWeaponDropEP17CBaseCombatWeaponbb"
+			}
+			"TerminateRound"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x83\xEC\x28\x53\x56\x8B\x75\x0C\x8B"
+				"linux" "@_ZN12CCSGameRules14TerminateRoundEfi"
+				"linux64" "@_ZN12CCSGameRules14TerminateRoundEfi"
+			}
+			"CheckWinLimit"
+			{
+				"library" "server"
+				"windows" "\x56\x8B\xF1\x8B\x06\x8B\x80\xDC\x00\x00\x00\xFF"
+				"linux" "@_ZN12CCSGameRules13CheckWinLimitEv"
+				"linux64" "@_ZN12CCSGameRules13CheckWinLimitEv"
+			}
+			"GetTranslatedWeaponAlias"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x56\x57\x8B\x7D\x08\x33\xF6\x8D\x9B\x00\x00\x00\x00\x57\xFF\x34\xF5\x30"
+				"linux" "@_Z24GetTranslatedWeaponAliasPKc"
+				"linux64" "@_Z24GetTranslatedWeaponAliasPKc"
+			}
+			"GetWeaponInfo"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x8B\x4D\x08\x85\xC9\x75\x04\x33\xC0"
+				"linux" "@_Z13GetWeaponInfo10CSWeaponID"
+				"linux64" "@_Z13GetWeaponInfo10CSWeaponID"
+			}
+			"AliasToWeaponID"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x56\x57\x8B\x7D\x08\x85\xFF\x74\x1E"
+				"linux" "@_Z15AliasToWeaponIDPKc"
+				"linux64" "@_Z15AliasToWeaponIDPKc"
+			}
+			"WeaponIDToAlias"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x8B\x4D\x08\x33\xC0\xEB\x06\x8D\x9B\x00\x00\x00\x00\x39\x0C\xC5\xC0"
+				"linux" "@_Z15WeaponIDToAliasi"
+				"linux64" "@_Z15WeaponIDToAliasi"
+			}
+			"SetClanTag"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x51\x89\x4D\xFC\x83\x7D\x08\x00\x74\x18"
+				"linux" "@_ZN9CCSPlayer10SetClanTagEPKc"
+				"linux64" "@_ZN9CCSPlayer10SetClanTagEPKc"
+			}
+			"SetModelFromClass"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x83\xEC\x20\x89\x4D\xF8\xA1\x2A\x2A\x2A\x2A"
+				"linux" "@_ZN9CCSPlayer17SetModelFromClassEv"
+				"linux64" "@_ZN9CCSPlayer17SetModelFromClassEv"
+			}
+		}
+		"Keys"
+		{
+			"MVPsBase"	"m_bPlayerDominatingMe"
+		}
+		"Offsets"
+		{
+			"m_iMVPs"
+			{
+				"windows"	"6628"
+				"windows64"	"6628"
+			}
+			"MVPs"
+			{
+				"windows"	"69"
+				"windows64"	"69"
+				"linux"		"69"
+				"linux64"	"69"
+			}
+		}
+	}
+}

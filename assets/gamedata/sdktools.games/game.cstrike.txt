@@ -1,0 +1,147 @@
+"Games"
+{
+	"cstrike"
+	{
+		"Keys"
+		{
+			"SlapSoundCount"	"3"
+			"SlapSound1"		"player/damage1.wav"
+			"SlapSound2"		"player/damage2.wav"
+			"SlapSound3"		"player/damage3.wav"
+			"GameRulesProxy"		"CCSGameRulesProxy"
+			"GameRulesDataTable"	"cs_gamerules_data"
+		}
+		"Offsets"
+		{
+			"SetOwnerEntity"
+			{
+				"windows"	"17"
+				"windows64"	"17"
+				"linux"		"18"
+				"linux64"	"18"
+			}
+			"GiveNamedItem"
+			{
+				"windows"	"404"
+				"windows64"	"404"
+				"linux"		"405"
+				"linux64"	"405"
+			}
+			"RemovePlayerItem"
+			{
+				"windows"	"273"
+				"windows64"	"273"
+				"linux"		"274"
+				"linux64"	"274"
+			}
+			"Weapon_GetSlot"
+			{
+				"windows"	"271"
+				"windows64"	"271"
+				"linux"		"272"
+				"linux64"	"272"
+			}
+			"Ignite"
+			{
+				"windows"	"212"
+				"windows64"	"212"
+				"linux"		"213"
+				"linux64"	"213"
+			}
+			"Extinguish"
+			{
+				"windows"	"216"
+				"windows64"	"216"
+				"linux"		"217"
+				"linux64"	"217"
+			}
+			"Teleport"
+			{
+				"windows"	"108"
+				"windows64"	"108"
+				"linux"		"109"
+				"linux64"	"109"
+			}
+			"CommitSuicide"
+			{
+				"windows"	"443"
+				"windows64"	"443"
+				"linux"		"444"
+				"linux64"	"444"
+			}
+			"GetVelocity"
+			{
+				"windows"	"140"
+				"windows64"	"140"
+				"linux"		"141"
+				"linux64"	"141"
+			}
+			"EyeAngles"
+			{
+				"windows"	"131"
+				"windows64"	"131"
+				"linux"		"132"
+				"linux64"	"132"
+			}
+			"AcceptInput"
+			{
+				"windows"	"36"
+				"windows64"	"36"
+				"linux"		"37"
+				"linux64"	"37"
+			}
+			"SetEntityModel"
+			{
+				"windows"	"24"
+				"windows64"	"24"
+				"linux"		"25"
+				"linux64"	"25"
+			}
+			"Activate"
+			{
+				"windows"	"33"
+				"windows64"	"33"
+				"linux"		"34"
+				"linux64"	"34"
+			}
+			"PlayerRunCmd"
+			{
+				"windows"	"422"
+				"windows64"	"422"
+				"linux"		"423"
+				"linux64"	"423"
+			}
+			"WeaponEquip"
+			{
+				"windows"	"264"
+				"windows64"	"264"
+				"linux"		"265"
+				"linux64"	"265"
+			}
+			"GiveAmmo"
+			{
+				"windows"	"255"
+				"windows64"	"255"
+				"linux"		"256"
+				"linux64"	"256"
+			}
+			"GetAttachment"
+			{
+				"windows"	"207"
+				"windows64"	"207"
+				"linux"		"208"
+				"linux64"	"208"
+			}
+		}
+		"Signatures"
+		{
+			"LookupAttachment"
+			{
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x56\x8B\xF1\x80\xBE\x2A\x2A\x2A\x2A\x00\x75\x3A"
+				"linux" "@_ZN14CBaseAnimating16LookupAttachmentEPKc"
+				"linux64" "@_ZN14CBaseAnimating16LookupAttachmentEPKc"
+			}
+		}
+	}
+}
